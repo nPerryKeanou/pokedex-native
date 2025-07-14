@@ -1,50 +1,116 @@
-# Welcome to your Expo app 👋
+<h1 align="center">📱 Pokedex Native</h1>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  Un petit projet mobile en <strong>React Native + TypeScript</strong> avec <strong>Expo</strong>,
+  inspiré du tutoriel de <a href="https://grafikart.fr">Grafikart</a>.
+  <br/>
+  <em>Apprentissage pratique du développement mobile avec une app Pokédex simple !</em>
+</p>
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Fonctionnalités
 
-   ```bash
-   npm install
-   ```
+- 📋 Liste des Pokémon
+- 🔍 Fiche détaillée de chaque Pokémon
+- 🖼️ Affichage d’images et de stats
+- ⚛️ Développement mobile avec Expo (React Native)
+- 🧠 Code en TypeScript, typé et structuré
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📦 Prérequis
 
-In the output, you'll find options to open the app in a
+Avant de démarrer :
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 🛠️ Environnement
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+- [Node.js](https://nodejs.org) (version LTS recommandée)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
 
 ```bash
-npm run reset-project
-```
+npm install -g expo-cli
+Un compte Expo
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Un téléphone avec l’app Expo Go installée :
 
-## Learn more
+📲 Android (Google Play)
 
-To learn more about developing your project with Expo, look at the following resources:
+🍎 iOS (App Store)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📁 Installation
+bash
+Copier
+Modifier
+git clone https://github.com/votre-utilisateur/pokedex-native.git
+cd pokedex-native
+npm install
+Ou avec yarn :
 
-## Join the community
+bash
+Copier
+Modifier
+yarn install
+▶️ Lancer le projet
+bash
+Copier
+Modifier
+expo start
+Cela ouvre Expo Dev Tools dans votre navigateur.
 
-Join our community of developers creating universal apps.
+📲 Tester sur votre téléphone
+Ouvrez Expo Go sur votre téléphone
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Scannez le QR Code affiché dans Expo Dev Tools ou dans le terminal
+
+Attendez que l'app se charge : elle s'exécutera directement sur votre mobile
+
+⚠️ Astuces :
+📡 Assurez-vous que votre téléphone et ordinateur sont sur le même réseau Wi-Fi
+
+🍏 Sur iOS, ouvrez le lien QR avec Safari pour que l’appli Expo Go fonctionne correctement
+
+🧪 Scripts utiles
+bash
+Copier
+Modifier
+npm start       # Lancer Expo
+npm run android # Lancer l'émulateur Android (nécessite Android Studio)
+npm run ios     # Lancer le simulateur iOS (Mac uniquement)
+📚 Technologies utilisées
+React Native
+
+Expo
+
+TypeScript
+
+React Navigation
+
+PokéAPI
+
+✅ TODO (Feuille de route)
+ Mise en place d’Expo + navigation
+
+ Liste des Pokémon (page principale)
+
+ Détail d’un Pokémon ([id].tsx)
+
+ Gestion des types avec TypeScript
+
+ Caching des images
+
+ Animations de transition
+
+ Déploiement sur Expo Store
+
+📸 Aperçu (à venir)
+Capture d’écran ou gif de l’application en fonctionnement
+(Tu pourras en ajouter plus tard avec expo export:web pour la version web)
+
+🙋‍♂️ Auteur
+Développé avec ❤️ par [Ton Nom / Ton Pseudo]
+🔗 Ton GitHub
+📺 Inspiré par Grafikart.fr
+
+📃 Licence
+Ce projet est open-source, sous licence MIT.
