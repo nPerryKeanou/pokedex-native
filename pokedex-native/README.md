@@ -7,7 +7,7 @@
   <em>Apprentissage pratique du développement mobile avec une app Pokédex simple !</em>
 </p>
 
----
+
 
 ## 🚀 Fonctionnalités
 
@@ -17,7 +17,7 @@
 - ⚛️ Développement mobile avec Expo (React Native)
 - 🧠 Code en TypeScript, typé et structuré
 
----
+
 
 ## 📦 Prérequis
 
@@ -28,7 +28,7 @@ Avant de démarrer :
 - [Node.js](https://nodejs.org) (version LTS recommandée)
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)
 
-```bash
+
 npm install -g expo-cli
 Un compte Expo
 
@@ -39,22 +39,16 @@ Un téléphone avec l’app Expo Go installée :
 🍎 iOS (App Store)
 
 📁 Installation
-bash
-Copier
-Modifier
+
 git clone https://github.com/votre-utilisateur/pokedex-native.git
 cd pokedex-native
 npm install
 Ou avec yarn :
 
-bash
-Copier
-Modifier
+
 yarn install
 ▶️ Lancer le projet
-bash
-Copier
-Modifier
+
 expo start
 Cela ouvre Expo Dev Tools dans votre navigateur.
 
@@ -71,9 +65,7 @@ Attendez que l'app se charge : elle s'exécutera directement sur votre mobile
 🍏 Sur iOS, ouvrez le lien QR avec Safari pour que l’appli Expo Go fonctionne correctement
 
 🧪 Scripts utiles
-bash
-Copier
-Modifier
+
 npm start       # Lancer Expo
 npm run android # Lancer l'émulateur Android (nécessite Android Studio)
 npm run ios     # Lancer le simulateur iOS (Mac uniquement)
