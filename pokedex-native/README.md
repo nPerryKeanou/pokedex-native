@@ -100,8 +100,8 @@ Capture d’écran ou gif de l’application en fonctionnement
 (Tu pourras en ajouter plus tard avec expo export:web pour la version web)
 
 🙋‍♂️ Auteur
-Développé avec ❤️ par [Ton Nom / Ton Pseudo]
-🔗 Ton GitHub
+Développé avec ❤️ par nPerryKeanou
+🔗 https://github.com/nPerryKeanou
 📺 Inspiré par Grafikart.fr
 
 📃 Licence
