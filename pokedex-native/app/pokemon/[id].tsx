@@ -1,6 +1,5 @@
-import {View, Text, StyleSheet} from 'react-native';
 import { useLocalSearchParams } from "expo-router";
-import { Background } from '@react-navigation/elements';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function Pokemon(){
 	const params = useLocalSearchParams();
